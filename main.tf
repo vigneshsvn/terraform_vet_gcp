@@ -8,7 +8,7 @@ terraform {
 }
 
 resource "google_project_iam_binding" "sample_iam_binding" {
-  project = "wikki-marketplace-prj"
+  project = "wikki-pso"
   role    = "roles/viewer"
 
   members = [
