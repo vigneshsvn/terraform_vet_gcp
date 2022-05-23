@@ -1,0 +1,10 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform.*
+
+# Local .terraform directories
+**/.terraform/*
+
+# MacOS
+.DS_Store
